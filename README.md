@@ -11,6 +11,8 @@
   - ~~DataType: Notes~~ - done
   
 	- like uComponent Notes (is it possible to not add it as a DB entry in umbraco? it takes up DB space for something not needed to be saved multiple times)
+	- use built in markdown umbraco so we don't have to introduce a new .js library just for this. 
+	- hide toolbar. use ng-hide. cannot find documentation for hiding bar
   - DataType: Autogenerate 
   
 	- random guid, random number, incremental number (do we really need this?)
