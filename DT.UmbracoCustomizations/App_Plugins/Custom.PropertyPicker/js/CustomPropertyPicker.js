@@ -1,9 +1,9 @@
 ﻿function apiHelper($http) {
-    var apiRoot = "/umbraco/api/ContentProperty/";
+    var apiRoot = "/umbraco/api/CustomPropertyPicker/";
 
     return {
         getContentProperty: function () {
-            return $http.get(apiRoot + "GetContentProperty");
+            return $http.get(apiRoot + "GetProperties");
         }
     };
 }
