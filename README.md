@@ -2,13 +2,13 @@
 
 ## Roadmap:
 
-  - ~~DataType: Property picker~~ 
+  - ~~DataType: Property picker~~ - done
   
 	- just like how macro property picker work
   - Events Widget 
   
 	- with downloadable .ics. this is based on http://www.vissit.com/projects/eventCalendar/
-  - ~~DataType: Notes~~
+  - ~~DataType: Notes~~ - done
   
 	- like uComponent Notes (is it possible to not add it as a DB entry in umbraco? it takes up DB space for something not needed to be saved multiple times)
   - DataType: Autogenerate 
