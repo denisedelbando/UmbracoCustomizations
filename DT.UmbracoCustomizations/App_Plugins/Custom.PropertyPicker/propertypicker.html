@@ -1,0 +1,6 @@
+﻿<div ng-controller="Custom.PropertyPickerController">
+    <select name="customPropertyPicker" class="umb-editor umb-dropdown" 
+            ng-options="item.PropertyAlias as item.PropertyName group by item.ContentTypeAlias for item in items" 
+            ng-model="model.value">
+    </select>
+</div>
