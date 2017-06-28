@@ -1,0 +1,16 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "DTCustomPropertyPicker",
+      "name": "DT Custom Property Picker",
+      "isParameterEditor": true,
+      "icon": "icon-autofill",
+      "editor": {
+        "view": "~/App_Plugins/DTCustomPropertyPicker/propertypicker.html"
+      }
+    }
+  ],  
+  "javascript": [
+    "~/App_Plugins/DTCustomPropertyPicker/js/CustomPropertyPicker.js"
+  ]
+}

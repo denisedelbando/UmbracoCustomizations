@@ -1,0 +1,27 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "DTCustomReadonly",
+      "name": "DT Custom Readonly",
+      "isParameterEditor": true,
+      "icon": "icon-autofill",
+      "editor": {
+        "view": "~/App_Plugins/DTCustomReadonly/readonly.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Text",
+            "description": "Read only text",
+            "key": "prevalueText",
+            "view": "~/App_Plugins/DTCustomReadonly/prevalues.html"
+          }
+        ]
+      }
+    }
+  ],  
+  "javascript": [
+    "~/App_Plugins/DTCustomReadonly/js/CustomReadOnly.controller.js",
+    "~/App_Plugins/DTCustomReadonly/js/CustomReadOnly.PreValue.controller.js"
+  ]
+}

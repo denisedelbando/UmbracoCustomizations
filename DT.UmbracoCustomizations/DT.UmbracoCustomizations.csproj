@@ -308,6 +308,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apis\CustomPropertyPicker.cs" />
     <Compile Include="DataRepository\DTO\PropertyPicker.cs" />
     <Compile Include="DataRepository\UmbracoRepositories.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
