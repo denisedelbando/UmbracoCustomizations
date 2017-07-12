@@ -1,0 +1,9 @@
+﻿<div ng-controller="CustomTextboxController">
+    <input type="text" id="{{model.alias}}" name="dtcustomtextbox" ng-model="model.value" maxlength="{{maxlength}}"
+           ng-pattern="validation.pattern"
+           ng-required="validation.mandatory"
+           class="umb-editor umb-textstring"
+           />
+    <span class="help-inline" val-msg-for="dtcustomtextbox" val-toggle-msg="required">Required</span>
+    <span class="help-inline" val-msg-for="dtcustomtextbox" val-toggle-msg="pattern">Invalid input</span>
+</div>

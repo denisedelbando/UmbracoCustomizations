@@ -1,0 +1,27 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "DTCustomCreateValue",
+      "name": "DT Custom Create Value",
+      "isParameterEditor": true,
+      "icon": "icon-autofill",
+      "editor": {
+        "view": "~/App_Plugins/DTCustomCreateValue/readonly.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Text",
+            "description": "Read only notes",
+            "key": "prevalue",
+            "view": "~/App_Plugins/DTCustomCreateValue/prevalues.html"
+          }
+        ]
+      }
+    }
+  ],  
+  "javascript": [
+    "~/App_Plugins/DTCustomCreateValue/js/CustomCreateValue.controller.js",
+    "~/App_Plugins/DTCustomCreateValue/js/CustomCreateValue.PreValue.controller.js"
+  ]
+}

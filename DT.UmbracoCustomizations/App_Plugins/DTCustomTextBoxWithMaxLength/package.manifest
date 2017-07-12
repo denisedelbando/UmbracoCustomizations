@@ -1,0 +1,38 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "DTCustomTextbox",
+      "name": "DT Custom Textbox",
+      "isParameterEditor": true,
+      "icon": "icon-autofill",
+      "editor": {
+        "view": "~/App_Plugins/DTCustomTextBoxWithMaxLength/textbox.html"        
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Max Length",
+            "description": "Max length. Defaults to 70 if not supplied",
+            "key": "maxlength",
+            "view": "~/App_Plugins/DTCustomTextBoxWithMaxLength/settingsmaxlength.html"
+          },
+          {
+            "label": "Is Required",
+            "description": "Required field?",
+            "key": "isrequired",
+            "view": "~/App_Plugins/DTCustomTextBoxWithMaxLength/settingsrequired.html"
+          },
+          {
+            "label": "Regular Expression",
+            "description": "Regular Expression used to validate",
+            "key": "valexpression",
+            "view": "~/App_Plugins/DTCustomTextBoxWithMaxLength/settingsvalexpression.html"
+          }
+        ]
+      }
+    }
+  ],  
+  "javascript": [
+    "~/App_Plugins/DTCustomTextBoxWithMaxLength/js/CustomTextBox.controller.js"
+  ]
+}
