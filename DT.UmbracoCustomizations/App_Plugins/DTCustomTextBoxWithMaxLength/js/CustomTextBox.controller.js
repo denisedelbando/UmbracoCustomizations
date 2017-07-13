@@ -11,7 +11,7 @@
     }
     $scope.maxlength = 70;//default max length value
 
-    if ($scope.model.config.maxlength != null) {
+    if ($scope.model.config !== null && $scope.model.config.maxlength != null) {
         $scope.maxlength = $scope.model.config.maxlength;
     }
 }
